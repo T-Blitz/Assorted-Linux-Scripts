@@ -1,0 +1,11 @@
+[Unit]
+Description=My Custom Script
+After=network.target
+
+[Service]
+ExecStart=/absolute/path/to/your/wrapper.out
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target
