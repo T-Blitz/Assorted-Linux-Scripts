@@ -48,7 +48,7 @@ update_upgrade_and_reboot_system(){
 
 
 clear
-echo "---> Full System Upgrade_Script V1.0 (Arch/pacman) <---"
+echo "---> Full System Upgrade-Script V1.0.1 (Arch/pacman) <---"
 while true; do
     show_menu
     read -p "Choose an option: " choice
@@ -76,7 +76,7 @@ while true; do
             ;;
         *)
             clear
-            echo "---> Full System Upgrade_Script V1.0 (Arch/pacman) <---"
+            echo "---> Full System Upgrade-Script V1.0.1 (Arch/pacman) <---"
             echo "WARNING:'$choice' is a invalid option!"
             ;;
     esac
